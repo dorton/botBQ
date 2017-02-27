@@ -9,23 +9,91 @@
 /* Begin PBXBuildFile section */
 		F562B55A1E6482680080DF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562B5591E6482680080DF31 /* AppDelegate.swift */; };
 		F562B55C1E6482680080DF31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562B55B1E6482680080DF31 /* ViewController.swift */; };
-		F562B55F1E6482680080DF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F562B55D1E6482680080DF31 /* Main.storyboard */; };
 		F562B5611E6482680080DF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F562B5601E6482680080DF31 /* Assets.xcassets */; };
 		F562B5641E6482680080DF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F562B5621E6482680080DF31 /* LaunchScreen.storyboard */; };
+		F562B56C1E6482BF0080DF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F562B56B1E6482BF0080DF31 /* Main.storyboard */; };
+		F562B5731E6484E80080DF31 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F562B5711E6484E80080DF31 /* Interface.storyboard */; };
+		F562B5751E6484E80080DF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F562B5741E6484E80080DF31 /* Assets.xcassets */; };
+		F562B57C1E6484E80080DF31 /* botBQ_watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F562B57B1E6484E80080DF31 /* botBQ_watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F562B5831E6484E80080DF31 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562B5821E6484E80080DF31 /* InterfaceController.swift */; };
+		F562B5851E6484E80080DF31 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562B5841E6484E80080DF31 /* ExtensionDelegate.swift */; };
+		F562B5871E6484E80080DF31 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562B5861E6484E80080DF31 /* NotificationController.swift */; };
+		F562B5891E6484E80080DF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F562B5881E6484E80080DF31 /* Assets.xcassets */; };
+		F562B58D1E6484E80080DF31 /* botBQ_watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F562B56F1E6484E80080DF31 /* botBQ_watch.app */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F562B57D1E6484E80080DF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F562B54E1E6482680080DF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F562B57A1E6484E80080DF31;
+			remoteInfo = "botBQ_watch Extension";
+		};
+		F562B58B1E6484E80080DF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F562B54E1E6482680080DF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F562B56E1E6484E80080DF31;
+			remoteInfo = botBQ_watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F562B5911E6484E90080DF31 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F562B57C1E6484E80080DF31 /* botBQ_watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F562B5951E6484E90080DF31 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F562B58D1E6484E80080DF31 /* botBQ_watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F562B5561E6482680080DF31 /* botBQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = botBQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F562B5591E6482680080DF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F562B55B1E6482680080DF31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F562B55E1E6482680080DF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F562B5601E6482680080DF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F562B5631E6482680080DF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F562B5651E6482680080DF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F562B56B1E6482BF0080DF31 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F562B56F1E6484E80080DF31 /* botBQ_watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = botBQ_watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F562B5721E6484E80080DF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F562B5741E6484E80080DF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F562B5761E6484E80080DF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F562B57B1E6484E80080DF31 /* botBQ_watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "botBQ_watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F562B5811E6484E80080DF31 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F562B5821E6484E80080DF31 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F562B5841E6484E80080DF31 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F562B5861E6484E80080DF31 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F562B5881E6484E80080DF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F562B58A1E6484E80080DF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F562B5531E6482680080DF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F562B5781E6484E80080DF31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				F562B5581E6482680080DF31 /* botBQ */,
+				F562B5701E6484E80080DF31 /* botBQ_watch */,
+				F562B57F1E6484E80080DF31 /* botBQ_watch Extension */,
 				F562B5571E6482680080DF31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				F562B5561E6482680080DF31 /* botBQ.app */,
+				F562B56F1E6484E80080DF31 /* botBQ_watch.app */,
+				F562B57B1E6484E80080DF31 /* botBQ_watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +128,43 @@
 			children = (
 				F562B5591E6482680080DF31 /* AppDelegate.swift */,
 				F562B55B1E6482680080DF31 /* ViewController.swift */,
-				F562B55D1E6482680080DF31 /* Main.storyboard */,
+				F562B56B1E6482BF0080DF31 /* Main.storyboard */,
 				F562B5601E6482680080DF31 /* Assets.xcassets */,
 				F562B5621E6482680080DF31 /* LaunchScreen.storyboard */,
 				F562B5651E6482680080DF31 /* Info.plist */,
 			);
 			path = botBQ;
+			sourceTree = "<group>";
+		};
+		F562B5701E6484E80080DF31 /* botBQ_watch */ = {
+			isa = PBXGroup;
+			children = (
+				F562B5711E6484E80080DF31 /* Interface.storyboard */,
+				F562B5741E6484E80080DF31 /* Assets.xcassets */,
+				F562B5761E6484E80080DF31 /* Info.plist */,
+			);
+			path = botBQ_watch;
+			sourceTree = "<group>";
+		};
+		F562B57F1E6484E80080DF31 /* botBQ_watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F562B5821E6484E80080DF31 /* InterfaceController.swift */,
+				F562B5841E6484E80080DF31 /* ExtensionDelegate.swift */,
+				F562B5861E6484E80080DF31 /* NotificationController.swift */,
+				F562B5881E6484E80080DF31 /* Assets.xcassets */,
+				F562B58A1E6484E80080DF31 /* Info.plist */,
+				F562B5801E6484E80080DF31 /* Supporting Files */,
+			);
+			path = "botBQ_watch Extension";
+			sourceTree = "<group>";
+		};
+		F562B5801E6484E80080DF31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F562B5811E6484E80080DF31 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +177,51 @@
 				F562B5521E6482680080DF31 /* Sources */,
 				F562B5531E6482680080DF31 /* Frameworks */,
 				F562B5541E6482680080DF31 /* Resources */,
+				F562B5951E6484E90080DF31 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F562B58C1E6484E80080DF31 /* PBXTargetDependency */,
 			);
 			name = botBQ;
 			productName = botBQ;
 			productReference = F562B5561E6482680080DF31 /* botBQ.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F562B56E1E6484E80080DF31 /* botBQ_watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F562B5921E6484E90080DF31 /* Build configuration list for PBXNativeTarget "botBQ_watch" */;
+			buildPhases = (
+				F562B56D1E6484E80080DF31 /* Resources */,
+				F562B5911E6484E90080DF31 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F562B57E1E6484E80080DF31 /* PBXTargetDependency */,
+			);
+			name = botBQ_watch;
+			productName = botBQ_watch;
+			productReference = F562B56F1E6484E80080DF31 /* botBQ_watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F562B57A1E6484E80080DF31 /* botBQ_watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F562B58E1E6484E90080DF31 /* Build configuration list for PBXNativeTarget "botBQ_watch Extension" */;
+			buildPhases = (
+				F562B5771E6484E80080DF31 /* Sources */,
+				F562B5781E6484E80080DF31 /* Frameworks */,
+				F562B5791E6484E80080DF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "botBQ_watch Extension";
+			productName = "botBQ_watch Extension";
+			productReference = F562B57B1E6484E80080DF31 /* botBQ_watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +234,14 @@
 				ORGANIZATIONNAME = "Brian Dorton";
 				TargetAttributes = {
 					F562B5551E6482680080DF31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F562B56E1E6484E80080DF31 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F562B57A1E6484E80080DF31 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +261,8 @@
 			projectRoot = "";
 			targets = (
 				F562B5551E6482680080DF31 /* botBQ */,
+				F562B56E1E6484E80080DF31 /* botBQ_watch */,
+				F562B57A1E6484E80080DF31 /* botBQ_watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +274,24 @@
 			files = (
 				F562B5641E6482680080DF31 /* LaunchScreen.storyboard in Resources */,
 				F562B5611E6482680080DF31 /* Assets.xcassets in Resources */,
-				F562B55F1E6482680080DF31 /* Main.storyboard in Resources */,
+				F562B56C1E6482BF0080DF31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F562B56D1E6484E80080DF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F562B5751E6484E80080DF31 /* Assets.xcassets in Resources */,
+				F562B5731E6484E80080DF31 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F562B5791E6484E80080DF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F562B5891E6484E80080DF31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +307,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F562B5771E6484E80080DF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F562B5871E6484E80080DF31 /* NotificationController.swift in Sources */,
+				F562B5851E6484E80080DF31 /* ExtensionDelegate.swift in Sources */,
+				F562B5831E6484E80080DF31 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F562B55D1E6482680080DF31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F562B55E1E6482680080DF31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		F562B57E1E6484E80080DF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F562B57A1E6484E80080DF31 /* botBQ_watch Extension */;
+			targetProxy = F562B57D1E6484E80080DF31 /* PBXContainerItemProxy */;
 		};
+		F562B58C1E6484E80080DF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F562B56E1E6484E80080DF31 /* botBQ_watch */;
+			targetProxy = F562B58B1E6484E80080DF31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		F562B5621E6482680080DF31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F562B5631E6482680080DF31 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F562B5711E6484E80080DF31 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F562B5721E6484E80080DF31 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +469,72 @@
 			};
 			name = Release;
 		};
+		F562B58F1E6484E90080DF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "botBQ_watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.botBQ.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F562B5901E6484E90080DF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "botBQ_watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.botBQ.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F562B5931E6484E90080DF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = botBQ_watch_Extension;
+				INFOPLIST_FILE = botBQ_watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = app.botBQ.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F562B5941E6484E90080DF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = botBQ_watch_Extension;
+				INFOPLIST_FILE = botBQ_watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = app.botBQ.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -297,6 +552,22 @@
 			buildConfigurations = (
 				F562B5691E6482680080DF31 /* Debug */,
 				F562B56A1E6482680080DF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F562B58E1E6484E90080DF31 /* Build configuration list for PBXNativeTarget "botBQ_watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F562B58F1E6484E90080DF31 /* Debug */,
+				F562B5901E6484E90080DF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F562B5921E6484E90080DF31 /* Build configuration list for PBXNativeTarget "botBQ_watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F562B5931E6484E90080DF31 /* Debug */,
+				F562B5941E6484E90080DF31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
